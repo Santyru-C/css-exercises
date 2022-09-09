@@ -1,5 +1,5 @@
 * {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 body {
   font-family: 'Courier New', Courier, monospace;
@@ -18,13 +18,9 @@ img {
 
 .image-container {
   display: flex;
-
-  text-align: center;
-}
-
-.first-media {
-  display: flex;
-  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 52px;
 }
 
 /* do not edit this footer */
